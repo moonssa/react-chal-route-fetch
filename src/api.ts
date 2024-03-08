@@ -1,4 +1,4 @@
-const BASE_PATH = "https:/disney_api.nomadcoders.workers.dev/characters";
+const BASE_PATH = "https://disney_api.nomadcoders.workers.dev/characters";
 
 export function getCharacters() {
   return fetch(BASE_PATH).then((response) => response.json());
